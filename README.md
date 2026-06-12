@@ -28,7 +28,7 @@
 - ingest.py --mode web --url [URL]
 - ingest.py --mode docs --path [PATH]
 
-__ Memory Check __ 
+__Memory Check__ 
 
 - ingest.py --check
 - list list categories (list [category] to chose the sub category --a to remove ALL empty spaces)
