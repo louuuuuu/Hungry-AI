@@ -170,16 +170,6 @@ def handle_command(
     cmd = parts[0].lower()
     arg = parts[1] if len(parts) > 1 else ""
 
-    if cmd == "/codddnnect":
-        args = parts[1].split()
-        if len(args) < 2:
-            print("Usage: /connect <ip> <port>")
-        else:
-            ip = args[0]
-            port = int(args[1])
-        connection(ip, port)
-
-
     if cmd == "/help":
         table = Table(title="Available Commands", show_header=True, header_style="bold red")
         table.add_column("Command", style="red")
